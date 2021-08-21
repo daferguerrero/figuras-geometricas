@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    /* border: 1px solid red; */
+}
+
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+
+#rectangulo{
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+}
+
+#circulo{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+}
+
+#ovalo{
+    width: 200px;
+    height: 100px;
+    background-color: darkgreen;
+    border-radius: 50%;
+}
+
+#semi-circulo{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    /* border-radius: 100px; */
+
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+    /* border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px; */
+
+    border-radius: 100px 100px 0 0;
+}
+
+#figura{
+    width:  200px;
+    height: 100px;
+    background-color: darkmagenta;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#triangulo{
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: lime; */
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+
+    /* border: 5px solid red; */
+
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid burlywood;
+    border-left: 50px solid transparent;
+}
+
+#trapecio{
+    width: 200px;
+    /* height: 100px; */
+
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid lightseagreen;
+    border-left: 50px solid transparent;
+}
+
+#rombo{
+    width: 70px;
+    height: 70px;
+    background-color: chocolate;
+
+    /* border-bottom: 5px solid lime; */
+
+    /* transform: rotate(45deg); */
+
+    transform: rotate(45deg) skew(10deg, 10deg);
+
+}
